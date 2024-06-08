@@ -25,3 +25,40 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 --psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql -U postgres < universe.sql
+\l
+ls --color=auto
+mkdir celestial_bodies_database
+ls --color=auto
+pg_dump -cC --inserts -U freecodecamp universe > celestial_bodies_database/universe.sql
+ls --color=auto
+cd celestial_bodies_database
+ls --color=auto
+cd ..
+ssh-keygen -t ed25519 -C "aanchal26geet@.com"
+Get-Service -Name ssh-agent
+cd ..
+Get-Service -Name ssh-agent
+clip < ~/.ssh/id_ed25519.pub
+cd project
+clip < ~/.ssh/id_ed25519.pub
+HOSTNAME
+cd ..
+cd ..
+HOSTNAME
+cd workspace/project
+git status
+git add universe.sql
+git commit -m "This commit was done after all the steps were completed."
+git push origin main
+git push origin main
+git remote -v
+git config --global credential.helper store
+git push origin main
+ssh-keygen -t ed25519 -C "aanchal26geet@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git remote set-url origin git@github.com:Aanchal021/Celestial_Body_Database.git
+git push origin main
+git pull origin main
+git add .
